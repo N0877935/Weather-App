@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("function component() {\n  const element = document.createElement('div');\n\n  // Lodash, currently included via a script, is required for this line to work\n  element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("console.log(\"work\");\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ })
 
