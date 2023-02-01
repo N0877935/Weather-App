@@ -39,3 +39,24 @@ input {
 input:focus {
     background-color: #b490fc;
 }
+
+button:hover {
+    background-color: #b490fc;
+    color: white;
+}
+
+.divStyle {
+    height: 300px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #b490fc;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.unitsStyle {
+    display: flex;
+    gap: 5px;
+}
